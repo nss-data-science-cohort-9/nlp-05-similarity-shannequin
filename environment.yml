@@ -3,5 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - jupyter
-  - sentence-transformers
-  - faiss-cpu
+  - sentence-transformers==5.5.1
+  - faiss-cpu==1.14.1
+  - pandas
